@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+#live2d {
+  width: 400px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+#chatbox {
+  width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+#messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}
+
+#user-input {
+  width: 70%;
+  padding: 5px;
+}
+
+#send-btn {
+  padding: 5px 10px;
+}
