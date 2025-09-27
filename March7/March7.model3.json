@@ -1,62 +1,24 @@
 {
-	"Version": 3,
-	"FileReferences": {
-		"Moc": "March7th.moc3",
-		"Textures": [
-			"March7.4096/texture_00.png",
-			"March7.4096/texture_01.png"
-		],
-		"Physics": "March7.physics3.json",
-		"DisplayInfo": "March7.cdi3.json",
-		"Expressions": [
-			{
-				"Name": "捂脸",
-				"File": "1.exp3.json"
-			},
-			{
-				"Name": "比耶",
-				"File": "2.exp3.json"
-			},
-			{
-				"Name": "照相",
-				"File": "3.exp3.json"
-			},
-			{
-				"Name": "脸红",
-				"File": "4.exp3.json"
-			},
-			{
-				"Name": "黑脸",
-				"File": "5.exp3.json"
-			},
-			{
-				"Name": "哭",
-				"File": "6.exp3.json"
-			},
-			{
-				"Name": "流汗",
-				"File": "7.exp3.json"
-			},
-			{
-				"Name": "星星",
-				"File": "8.exp3.json"
-			}
-		]
-	},
-	"Groups": [
-		{
-			"Target": "Parameter",
-			"Name": "EyeBlink",
-			"Ids": [
-				"ParamEyeLOpen",
-				"ParamEyeROpen"
-			]
-		},
-		{
-			"Target": "Parameter",
-			"Name": "LipSync",
-			"Ids": []
-		}
-	],
-	"HitAreas": []
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "March7th.moc3",
+    "Textures": [
+      "March7.4096/texture_00.png",
+      "March7.4096/texture_01.png"
+    ],
+    "Physics": "March7.physics3.json",
+    "DisplayInfo": "March7.cdi3.json"
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": ["ParamEyeLOpen", "ParamEyeROpen"]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": ["ParamMouthOpenY"]
+    }
+  ]
 }
