@@ -2,24 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ask TP(AI)</title>
+  <title>Ask March 7th (AI)</title>
   <link rel="stylesheet" href="body.css">
-
-  <!-- PixiJS v6 -->
-  <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.10/dist/browser/pixi.min.js"></script>
-
-  <!-- Plugin Live2D cho Cubism 3/4 -->
-  <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.4.0/dist/index.min.js"></script>
 </head>
 <body>
-  <h2>Ask TP(AI)</h2>
-  <div id="chat"></div>
-  <input id="input" type="text" placeholder="Type your question..." />
-  <button onclick="ask()">Send</button>
+  <h2>Ask March 7th (AI)</h2>
 
-  <!-- Canvas Live2D -->
+  <!-- Chat UI -->
+  <div id="chat-box">
+    <div id="chat"></div>
+    <input id="input" type="text" placeholder="Type your question...">
+    <button onclick="ask()">Send</button>
+  </div>
+
+  <!-- Live2D Canvas -->
   <canvas id="live2d" width="400" height="600"></canvas>
 
+  <!-- Scripts -->
+  <script src="https://unpkg.com/pixi.js/dist/browser/pixi.min.js"></script>
+  <script src="https://unpkg.com/pixi-live2d-display/dist/index.min.js"></script>
   <script src="JS.js"></script>
 </body>
 </html>
