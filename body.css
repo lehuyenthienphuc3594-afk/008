@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #808080;
+  background: #000000;
 }
 
 #live2d {
@@ -23,7 +23,7 @@ body {
 #messages {
   height: 300px;
   overflow-y: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #FFFFFF;
   padding: 10px;
   margin-bottom: 10px;
   white-space: pre-wrap;
