@@ -20,7 +20,7 @@ PIXI.live2d.Live2DModel.from("March7/March7.model3.json").then(model => {
 // ===== Chatbot logic =====
 async function ask() {
   const q = document.getElementById("input").value;
-  document.getElementById("chat").innerHTML += "<b>Loser:</b> " + q + "<br>";
+  document.getElementById("chat").innerHTML += "<b>câu hỏi:</b> " + q + "<br>";
 
   try {
     const response = await fetch("/api/chat", {
