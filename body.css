@@ -1,39 +1,47 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #000000;
-}
-
-#live2d {
-  width: 400px;
-  height: 600px;
-  display: block;
-  margin: 0 auto;
+  background: #000;   /* nền đen */
+  color: #fff;        /* chữ trắng */
 }
 
 #chatbox {
   width: 600px;
   margin: 20px auto;
-  border: 1px solid #ccc;
-  background: #fff;
+  border: 1px solid #444;  /* viền xám tối */
+  background: #111;        /* nền hộp chat tối */
   padding: 10px;
   text-align: left;
+  color: #fff;             /* chữ trong hộp chat trắng */
 }
 
 #messages {
   height: 300px;
   overflow-y: auto;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #333;
   padding: 10px;
   margin-bottom: 10px;
   white-space: pre-wrap;
+  background: #000;   /* nền trong messages đen */
+  color: #fff;        /* chữ trắng */
 }
 
 #user-input {
   width: 70%;
   padding: 5px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #555;
 }
 
 #send-btn {
   padding: 5px 10px;
+  background: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#send-btn:hover {
+  background: #666;
 }
