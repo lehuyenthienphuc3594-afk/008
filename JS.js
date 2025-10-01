@@ -20,7 +20,7 @@ PIXI.live2d.Live2DModel.from("March7/March7.model3.json").then(model => {
 // ===== Chatbot logic =====
 async function ask() {
   const q = document.getElementById("input").value;
-  document.getElementById("chat").innerHTML += "<b>You:</b> " + q + "<br>";
+  document.getElementById("chat").innerHTML += "<b>Loser:</b> " + q + "<br>";
 
   try {
     const response = await fetch("/api/chat", {
@@ -34,10 +34,10 @@ async function ask() {
     const data = await response.json();
     const ans = data.reply;
 
-    document.getElementById("chat").innerHTML += "<b>March 7th:</b> " + ans + "<br>";
+    document.getElementById("chat").innerHTML += "<b>DDD:</b> " + ans + "<br>";
     document.getElementById("input").value = "";
   } catch (err) {
     console.error(err);
-    document.getElementById("chat").innerHTML += "<b>March 7th:</b> (Error: Could not reach AI)<br>";
+    document.getElementById("chat").innerHTML += "<b>DDD</b> (Error: Could not reach AI)<br>";
   }
 }
